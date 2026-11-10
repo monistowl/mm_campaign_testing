@@ -1,0 +1,157 @@
+{
+ "format": "hexmarch-snapshot",
+ "version": 1,
+ "campaign": "toil-and-trouble",
+ "revision": 1,
+ "published": "2026-11-10T14:26:35.914Z",
+ "ruleset": "mm",
+ "site": "https://ialdabaoth.github.io/MateriaMundiRPG/",
+ "module": {
+  "id": "toil-and-trouble",
+  "title": "Toil and Trouble",
+  "version": "0.1.0",
+  "kind": "campaign",
+  "license": "LicenseRef-Private",
+  "requires": {
+   "mm-core": "^0.1.0",
+   "isle-of-mists": "^0.4.11"
+  },
+  "exclude": [
+   "isle-of-mists/book/b3",
+   "isle-of-mists/book/b5",
+   "isle-of-mists/book/b4"
+  ],
+  "start": {
+   "module": "isle-of-mists",
+   "id": "arrive-at-the-keep"
+  },
+  "created": "2026-11-10"
+ },
+ "lock": {
+  "format": "hexmarch-lock/1",
+  "module": "toil-and-trouble",
+  "modules": [
+   {
+    "id": "mm-core",
+    "version": "0.1.0",
+    "hash": "sha256:44a0cda85129ac0528ec99975cc81eae42933b7f12d4d282a802c6b7feffcb0c"
+   },
+   {
+    "id": "isle-of-mists",
+    "version": "0.4.11",
+    "hash": "sha256:bb5dd9e2a5947a3ec31a4c26ff7aa5e004f2efff26ef42730c6d8049b1da6b77"
+   }
+  ]
+ },
+ "state": {
+  "format": "hexmarch-campaign-state",
+  "version": 1,
+  "campaign": "toil-and-trouble",
+  "revision": 5,
+  "updated": "2026-11-10T14:15:51.860Z",
+  "rules": {
+   "ruleset": "mm",
+   "module": "mm-core",
+   "option": "",
+   "version": "0.1.0"
+  },
+  "clock": {
+   "start": "3507-05-01",
+   "hours": 8
+  },
+  "party": {
+   "base": "https://ialdabaoth.github.io/MateriaMundiRPG/modules/isle-of-mists/",
+   "module": "isle-of-mists",
+   "map": "atlas",
+   "hex": "world:6847:6947",
+   "label": "6847:6947",
+   "hours": 0
+  },
+  "revealed": {
+   "isle-of-mists": {
+    "hexes": [
+     "world:6847:7951",
+     "world:6847:7550",
+     "world:6847:6947"
+    ],
+    "places": [
+     "baile-atha-troim"
+    ]
+   }
+  },
+  "session": {
+   "number": 0,
+   "open": false
+  },
+  "characters": [
+   {
+    "id": "6db5e42a-d8e7-48e2-8d51-e6c03a1c8e23",
+    "name": "Connor ua Niall",
+    "player": ""
+   },
+   {
+    "id": "f5c3cbb7-10ac-4a9a-a155-e51b826fdab5",
+    "name": "Jad",
+    "player": ""
+   }
+  ]
+ },
+ "receipts": [],
+ "private": {
+  "6db5e42a-d8e7-48e2-8d51-e6c03a1c8e23": {
+   "characters": {
+    "6db5e42a-d8e7-48e2-8d51-e6c03a1c8e23": {
+     "knowledge": []
+    }
+   }
+  },
+  "f5c3cbb7-10ac-4a9a-a155-e51b826fdab5": {
+   "characters": {
+    "f5c3cbb7-10ac-4a9a-a155-e51b826fdab5": {
+     "knowledge": [
+      {
+       "module": "isle-of-mists",
+       "hex": "world:6747:A075",
+       "how": "seen"
+      },
+      {
+       "module": "isle-of-mists",
+       "hex": "world:6748:A075",
+       "how": "seen"
+      },
+      {
+       "module": "isle-of-mists",
+       "hex": "world:6846:A075",
+       "how": "seen"
+      },
+      {
+       "module": "isle-of-mists",
+       "hex": "world:6847:A075",
+       "how": "seen"
+      },
+      {
+       "module": "isle-of-mists",
+       "hex": "world:6848:A075",
+       "how": "seen"
+      },
+      {
+       "module": "isle-of-mists",
+       "hex": "world:6947:A075",
+       "how": "seen"
+      },
+      {
+       "module": "isle-of-mists",
+       "hex": "world:6948:A075",
+       "how": "seen"
+      },
+      {
+       "module": "isle-of-mists",
+       "hex": "world:6746:A075",
+       "how": "seen"
+      }
+     ]
+    }
+   }
+  }
+ }
+}
