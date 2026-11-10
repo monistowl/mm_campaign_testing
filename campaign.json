@@ -1,0 +1,13 @@
+{
+ "format": "hexmarch-campaign-pointer",
+ "version": 1,
+ "campaign": "toil-and-trouble",
+ "title": "Toil and Trouble",
+ "read": "https://raw.githubusercontent.com/monistowl/mm_campaign_testing/main/snapshot.json",
+ "post": "",
+ "adapters": {
+  "store": "github",
+  "mail": "manual"
+ },
+ "updated": "2026-11-10T14:26:35.914Z"
+}
